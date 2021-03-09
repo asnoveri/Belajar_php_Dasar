@@ -15,10 +15,34 @@ Tutorial php dasar
 			- lalu klik new dan tambahkan folder tempat tersimpanny file php.exe
 			- lalu coba tes php version pada cmd atau terminal
       
-   2. menjalankan file php via terminal
+   # menjalankan file php via terminal
       - jalankan terminal
       - isikan php namafile.php
       
       
-   3. Tipe Data di PHP   
+   # Tipe Data di PHP   
+      - Tipe data number
+      	 - int   -> bilangan bulat decimal (base 10), hexadecimal (base16), binary (base2)
+	 - float -> bilangan pecahan	
+      - Tipe Data String
+      	- tipe data string adalah representasi dari texs
+	- string bisa mengandung kosong atau banyak karakter
+	- membuat string bisa mengunakan single qoute ('') dan double qoute("")
+
+    # Variable
+      - temnpat penyimpanan data sehinga bisa di gunakan lagi
+      - bisa menampung berbagai jenis tipe data dan bisa berubah-ubah tipe datannya
+      - membuatr varibale bisa mengunakan tanda dolar ($) diikuti dengan nama varibalenya
+      - penamaan variabel tidak boleh mengandung spasi
       
+    # Variable Variables
+    	- membuat variable dari string value variable
+	- tidak di rekomendasikan mengunakan fitru ini karena sangat membingungkan
+	- membuat variable dari value variable kita bisa mengunakan tanda $$ diikuti dengan nama varibalenya
+	
+	
+    # Constant
+    	- tempat penyimpanan data yang tidak bisa di ubah
+	- membuat constant kita dapat mengunakan function define()
+	- Pembuatan nama constant dengan mengunakan UPPER_CASE
+   
